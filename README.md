@@ -2,16 +2,16 @@
 支持实时获取小米蓝牙温度湿度计2数据，并且通过Mqtt上传到云服务器。
 需要在支持蓝牙的硬件上运行，树莓派4B测试通过。
 
-## Pre Install
+## 安装准备
 pip3 install bluepy
 
 pip3 install paho-mqtt
 
-## Run script
+## 执行命令
 python3 mqtt_report_data.py -d -h mqtt.test -i test_locator_gateway -k 60 -p 1883 -u test -P test -v -t "/read-property"
 
 
-## Run result
+## 执行结果
 Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'test_locator_gateway'
 
 Sending SUBSCRIBE (d0, m1) [(b'/read-property', 0)]
