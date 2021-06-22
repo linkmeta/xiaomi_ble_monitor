@@ -1,4 +1,8 @@
 # xiaomi_ble_monitor
+![GitHub License](https://img.shields.io/badge/license-Apache%202-blue)
+![Run environment](https://img.shields.io/badge/python-v3.7-blue)
+![Test result](https://img.shields.io/badge/test-passing-brightgreen)
+
 支持实时获取小米蓝牙温度湿度计2数据，并且通过Mqtt上传到云服务器。
 需要在支持蓝牙的硬件上运行，树莓派4B测试通过。
 
